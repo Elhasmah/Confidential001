@@ -1,0 +1,137 @@
+body {
+  background-color: #f7ebe6;
+  /*background-color: #f9f9f9;*/
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: ;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+header {
+  background-color: #ffcc8;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #5d4037;
+}
+section {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #7b1fa2;
+  margin-bottom: 10px;
+}
+h3 {
+  color: #5d4037;
+}
+ul, ol {
+  margin-left: 20px;
+}
+ul li::marker,
+ol li::marker {
+  font-weight: bold;
+  color: rgb(77, 58, 58);
+}
+ul li:nth-child(n),
+ol li:nth-child(n) {
+  text-indent: -20px;
+  padding-left: 20px;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery-container img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+/*more features such image fullview, image navigation and animation to added once my knowledge of javascript appreciates*/
+.gallery-container img:hover {
+  transform: scale(0.95);
+}
+.comments form {
+  display: flex;
+  flex-direction: column;
+}
+.comments label {
+  margin-top: 10px;
+}
+.comments input,
+.comments textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.comments button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #7b1fa2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.comments button:hover {
+  background-color: #4a0072;
+}
+.comments button:active {
+  background-color: #7b1fa2;
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+.print-recipe {
+  text-align: center;
+  margin-top: 20px;
+}
+.print-recipe button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.print-recipe button:hover {
+  background-color: #388e3c;
+}
+.print-recipe button:active {
+  background-color: #4caf50;
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  color: #5d4037;
+  border-radius: 3px;
+  font-weight: bold;
+}
+footer img {
+  width: 40px;
+  border-radius: 25px;
+  margin: 20px;
+}
+footer img:hover {
+  opacity: 0.8;
+}
+footer img:active {
+  transform: rotate(90deg);
+}
