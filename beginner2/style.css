@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary-color: hsl(0,0%,12%);
+  --secondary-color:hsl(0, 0%, 75%);
+  --light-color: hsl(0, 0%, 90%);
+  --dark-color: hsl(0, 0%, 8%);
+  --alternative-color: hsl(0, 0%, 20%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: inter;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 500px;
+  background-color: var(--primary-color);
+  margin: 150px auto;
+  padding: 50px 40px;
+  overflow: 0 auto;
+  border-radius: 10px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 30px;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 18px;
+}
+
+h3 {
+  color: var(--secondary-color);
+  line-height: 70px;
+}
+
+nav {
+  display: grid;
+}
+
+.btn {
+  background-color: var(--alternative-color);
+  color: var(--light-color);
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 17px 140px;
+  border: none;
+  border-radius: 8px;
+}
+
