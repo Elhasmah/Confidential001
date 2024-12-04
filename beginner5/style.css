@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* primary */
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  --faint-light-red: hsl(0, 100%, 98%);
+  --faint-orange-yellow: hsl(59, 91%, 91%);
+  --faint-green-teal: hsl(110, 100%, 95%);
+  --faint-cobalt-blue: hsl(235, 100%, 95%);
+
+  /* gradient */
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 76%, 46%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 22%, 17%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: hanken grotesk;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100px;
+  margin: 0 auto;
+  height: 70px;
+  overflow: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 35px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main {
+  width: 800px;
+  position: relative;
+  display: flex;
+  
+}
+
+/* gradient */
+.result-card {
+  background: linear-gradient(180deg, var(--light-slate-blue), var(--light-royal-blue));
+  width: 400px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.result-card h1 {
+  margin-bottom: 40px;
+}
+
+.score-circle {
+  background: linear-gradient(180deg, var(--violet-blue), var(--persian-blue));
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  line-height: 1.3;
+}
+
+.score {
+  font-size: 70px;
+  color: var(--white);
+}
+
+.feedback-description {
+  width: 320px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feedback {
+  font-size: 35px;
+  color: var(--white);
+}
+
+.description {
+  font-size: 18px;
+}
+
+/* Summary */
+.summary-card {
+  width: 455px;
+  height: 600px;
+  position: absolute;
+  margin-left: -55px;
+  padding: 1rem 1rem 1rem 4rem ;
+}
+
+.summary-items {
+  font-size: 20px;
+  width: 320px;
+  height: 57px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 15px;
+}
+
+.summary-colm1 {
+  background-color: var(--faint-light-red);
+} 
+
+.summary-colm2 {
+  background-color: var(--faint-orange-yellow);
+} 
+
+.summary-colm3 {
+  background-color: var(--faint-green-teal);
+} 
+
+.summary-colm4 {
+  background-color: var(--faint-cobalt-blue);
+} 
+
+.summary-colm1-p {
+  color: var(--light-red);
+} 
+
+.summary-colm2-p {
+  color: var(--orange-yellow);
+} 
+
+.summary-colm3-p {
+ color: var(--green-teal);
+} 
+
+.summary-colm4-p {
+  color: var(--cobalt-blue);
+} 
+
+
+.averages {
+  position: absolute;
+  right: 15px;
+}
+
+.span {
+  color: rgb(185, 185, 185);
+}
+
+.btn {
+  background-color: var(--dark-gray-blue);
+  color: var(--white);
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+
+@media (max-width: 700px) {
+  .main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .summary-card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 16px 16px 16px 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* margins */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+/* paddings */
+.py-1 {
+  padding: 1rem 1rem 1rem 4rem ;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.px-3 {
+  padding: 0 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
