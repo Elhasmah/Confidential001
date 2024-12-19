@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* primary */
+  --pale-blue: hsl(0, 0%, 97%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* neutral */
+  --white: hsl(0, 0%, 100%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'red hat display';
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-blue);
+}
+
+body .img {
+  top: 0;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  overflow: hidden;
+  background-color: var(--white);
+  position: relative;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.order-sumary-container {
+  width: 100%;
+}
+
+.annual-plan-container {
+  background-color: var(--pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 1rem 1.5rem;
+}
+
+.annual-plan-container p {
+  margin-left: 15px;
+}
+
+.cost-div {
+  display: flex;
+  
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn1 {
+  color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+   border: none;
+  background-color: var(--bright-blue);
+}
+
+.btn2 {
+  border: none;
+  background-color: var(--white);
+}
+
+/* custom css */
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+/* text colors */
+.text-color1 {
+  color: var(--white);
+}
+
+.text-color2 {
+  color:rgb(75, 75, 75);
+}
+
+.text-color3 {
+  color: var(--Cyan);
+}
+
+/* font-sizes */
+.sm {
+  font-size: 0.9rem;
+}
+
+.md {
+  font-size: 1.6rem;
+}
+
+.lg {
+  font-size: 2.4rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/* margins */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.mx-2 {
+  margin: 0 1.5rem;
+}
+
+/* paddings */
+.py-1 {
+  padding: 0.8rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.px-3 {
+  padding: 0 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+

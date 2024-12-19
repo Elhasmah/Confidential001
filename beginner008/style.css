@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* primary */
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: outfit, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--slate-300);
+}
+
+.container {
+  max-width: 420px;
+  overflow: hidden;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.qrCodeImage {
+ 
+}
+
+.qrCodeImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.textDiv {
+  text-align: center;
+}
+ 
+.text1 {
+  font-weight: bold;
+  color: var(--slate-900);
+}
+
+.text2 {
+  color: gray;
+  line-height: 1.4;
+}
+
+/* font-sizes */
+.sm {
+  font-size: 1.2rem;
+}
+
+.md {
+  font-size: 1.8rem;
+}
+
+.lg {
+  font-size: 2.4rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/* margins */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.mx-1 {
+  margin: 0 0.7rem;
+}
+
+/* paddings */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.px-3 {
+  padding: 0 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.7rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
